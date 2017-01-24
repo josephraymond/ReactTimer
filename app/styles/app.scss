@@ -1,7 +1,12 @@
-// Base Imports
+// Variables
 @import "base/variables";
 
-// Component Imports
+// Foundation
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
+
+// Components
 @import "components/nav";
 @import "components/clock";
 @import "components/controls";
